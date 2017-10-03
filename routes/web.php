@@ -23,6 +23,4 @@ Route::get('/agur', function () {
 Route::get('/get', function () {
     return view('get');
 });
-Route::post('/post', function () {
-    return view('post');
-});
+Route::post('/post', 'DatoPersonalController@insertarDatoPersonal');

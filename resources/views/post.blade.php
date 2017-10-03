@@ -13,7 +13,7 @@
         <br/>
 
         <?php
-        if( $_POST["nombre"] || $_GET["edad"] ) {
+        if($_POST) {
             echo "Bienvenido ". $_POST['nombre']. "<br />";
             echo "Tienes ". $_POST['edad']. " años";
 
