@@ -6,7 +6,7 @@
     <br/>
 
     <?php
-    if($_POST) {
+    if( $_POST["nombre"] || $_POST["edad"] )  {
         echo "Bienvenido ". $_POST['nombre']. "<br />";
         echo "Tienes ". $_POST['edad']. " años";
 
